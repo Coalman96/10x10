@@ -1,0 +1,457 @@
+@font-face {
+  font-family: "core";
+  src: url(./fonts/CoreSansC45Regular.woff);
+}
+header .inner nav .search input {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  font-family: "core";
+  color: #555;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.flex {
+  display: flex;
+}
+
+section {
+  height: 100vh;
+}
+
+.inner {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header {
+  height: 86px;
+}
+header a {
+  display: inline-block;
+  height: 100%;
+  line-height: 29px;
+  color: #333;
+}
+header .inner {
+  gap: 168px;
+  align-items: center;
+}
+header .inner nav {
+  font-size: 15px;
+  font-weight: 600;
+  gap: 10px;
+}
+header .inner nav ul {
+  gap: 10px;
+}
+header .inner nav ul li:first-child {
+  position: relative;
+}
+header .inner nav ul li:first-child a {
+  color: #ff603e;
+}
+header .inner nav ul li:first-child:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: -5px;
+  width: 4px;
+  height: 4px;
+  background-color: #ff603e;
+  border-radius: 50%;
+}
+header .inner nav .search {
+  position: relative;
+}
+header .inner nav .search input {
+  padding: 5px 10px;
+  width: 240px;
+  background-color: #fff;
+  border: 1px solid #ff214f;
+  border-radius: 15px;
+  outline: none;
+}
+header .inner nav .search a {
+  position: absolute;
+  color: #ff214f;
+  line-height: 26px;
+  right: 15px;
+}
+
+#sect1 .just1day {
+  height: 490px;
+  background: url(http://fiximage.10x10.co.kr/web2018/main/bg_pattern_slash.png) 0 0 repeat;
+}
+#sect1 .just1day .inner {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+#sect1 .just1day .inner .ftLt {
+  width: 250px;
+}
+#sect1 .just1day .inner .ftLt p {
+  font-size: 30px;
+  color: #ff0000;
+  padding-top: 30px;
+}
+#sect1 .just1day .inner .ftLt p strong {
+  font-weight: bold;
+}
+#sect1 .just1day .inner .items {
+  width: 900px;
+  justify-content: space-between;
+}
+#sect1 .just1day .inner .items .thumbnail img {
+  border-radius: 50%;
+  border: 10px solid #ffffff;
+}
+#sect1 .just1day .inner .items .desc {
+  cursor: pointer;
+  line-height: 25px;
+  text-align: center;
+}
+#sect1 .just1day .inner .items .desc .name {
+  font-size: 15px;
+}
+#sect1 .just1day .inner .items .desc .red {
+  color: red;
+  font-weight: bold;
+}
+#sect1 .just1day .inner .items .desc .sum {
+  font-weight: bold;
+}
+
+#sect2 {
+  margin-top: 100px;
+  height: 130vh;
+}
+#sect2 .inner .ftLt {
+  width: 250px;
+  flex-direction: column;
+}
+#sect2 .inner .ftLt h2 {
+  position: relative;
+  font-size: 32px;
+}
+#sect2 .inner .ftLt h2::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  width: 8px;
+  height: 1px;
+  background-color: #666;
+}
+#sect2 .inner .ftLt h2 b {
+  color: #000;
+  font-size: 32px;
+  line-height: 1.25;
+}
+#sect2 .inner .ftLt p {
+  position: relative;
+  padding-top: 60px;
+  color: #333;
+  font-size: 13px;
+  line-height: 1.5;
+}
+#sect2 .inner .ftLt ul {
+  padding-top: 80px;
+}
+#sect2 .inner .ftLt ul li a {
+  display: inline-block;
+  height: 24px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #000;
+  background-color: #eee;
+  border-radius: 12px;
+}
+#sect2 .inner .items {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+}
+#sect2 .inner .items li {
+  width: 30%;
+  height: 400px;
+}
+#sect2 .inner .items li:hover img {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+#sect2 .inner .items li .thumbnail {
+  overflow: hidden;
+}
+#sect2 .inner .items li .thumbnail img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+#sect2 .inner .items li .desc p {
+  height: 35px;
+  padding: 12px 0 8px;
+  font-size: 14px;
+  line-height: 1.29;
+  white-space: normal;
+  text-overflow: clip;
+}
+#sect2 .inner .items li .desc p span {
+  display: inline-block;
+  position: relative;
+  height: auto;
+  padding: 0;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1;
+  background: none;
+  color: #4075ff;
+  font-weight: bold;
+  border-radius: 12px;
+  vertical-align: top;
+}
+#sect2 .inner .items li .desc .price {
+  font-size: 13px;
+}
+
+#sect3 {
+  height: 100vh;
+  overflow: hidden;
+}
+#sect3 .inner {
+  position: relative;
+  width: 100%;
+  height: 680px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #f7f7f7;
+}
+#sect3 .inner article {
+  position: relative;
+  height: 680px;
+  display: flex;
+  background: #f7f7f7;
+}
+#sect3 .inner div {
+  padding: 0 100px;
+}
+#sect3 .inner div.down {
+  align-self: flex-end;
+}
+#sect3 .prev {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url(./images/prev.png) no-repeat center/cover;
+}
+#sect3 .next {
+  position: absolute;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background: url(./images/next.png) no-repeat center/cover;
+}
+
+#sect4 {
+  height: 50vh;
+}
+#sect4 .inner {
+  position: relative;
+}
+#sect4 .inner .itemTab {
+  position: absolute;
+  right: 25px;
+  top: -50px;
+}
+#sect4 .inner .itemTab ul {
+  gap: 10px;
+}
+#sect4 .inner .itemTab ul li a {
+  display: block;
+  padding: 8px 0;
+  font-size: 14px;
+  line-height: 1;
+  color: #666;
+  font-weight: bold;
+}
+#sect4 .inner .itemTab ul li a.on {
+  color: #000;
+  border-bottom: 4px solid #4075ff;
+}
+#sect4 .inner .tab {
+  display: none;
+  position: absolute;
+  justify-content: space-between;
+}
+#sect4 .inner .tab .ftLt {
+  width: 250px;
+  flex-direction: column;
+}
+#sect4 .inner .tab .ftLt h2 {
+  position: relative;
+  color: #000;
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: normal;
+}
+#sect4 .inner .tab .ftLt h2 b {
+  color: #000;
+  font-size: 32px;
+  line-height: 1.25;
+}
+#sect4 .inner .tab ul {
+  width: 72%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+#sect4 .inner .tab ul li {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+}
+#sect4 .inner .tab ul li:hover .desc {
+  transform: translateY(0);
+  transition: all 0.2s;
+}
+#sect4 .inner .tab ul li .thumbnail {
+  overflow: hidden;
+  height: 180px;
+}
+#sect4 .inner .tab ul li .thumbnail img {
+  height: 100%;
+}
+#sect4 .inner .tab ul li .desc {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  z-index: 10;
+  width: 100%;
+  height: 38px;
+  padding: 8px;
+  color: #fff;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 0.2s;
+}
+#sect4 .inner .tab ul li .desc p {
+  overflow: hidden;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#sect4 .inner .tab ul li .desc .price {
+  padding-top: 5px;
+  font-size: 12px;
+}
+#sect4 .inner .tab.on {
+  display: flex;
+}
+
+footer {
+  padding: 20px;
+  height: 40vh;
+  border-top: 2px solid #ccc;
+}
+footer .inner .footerMenus {
+  gap: 20px;
+}
+footer .inner .footerMenus li a {
+  font-size: 13px;
+  line-height: 38px;
+}
+footer .inner .footerMenus li a:hover {
+  color: #ff603e;
+}
+footer .inner .footerMenus li:first-child {
+  position: relative;
+}
+footer .inner .footerMenus li:first-child:after {
+  content: " ";
+  position: absolute;
+  top: 5px;
+  right: -5px;
+  width: 4px;
+  height: 4px;
+  background-color: #ff603e;
+  border-radius: 50%;
+}
+footer .inner .infoWrap {
+  gap: 60px;
+  margin-top: 42px;
+  text-align: left;
+}
+footer .inner .infoWrap .info p {
+  font-size: 13px;
+  line-height: 2;
+}
+footer .inner .infoWrap .info .company em {
+  display: inline-block;
+  padding-bottom: 16px;
+  font-size: 16px;
+  font-style: normal;
+}
+footer .inner .shortCutWrap {
+  width: 20%;
+}
+footer .inner .shortCutWrap ul li a {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+}
+footer .inner .shortCutWrap ul li a img {
+  width: 100%;
+  height: 100%;
+}
+footer .inner .shortCutWrap .shortCut {
+  display: inline-block;
+  width: 284px;
+  margin-top: 30px;
+  padding: 16px 0 16px 16px;
+  background: #f7f7f7;
+  border-radius: 8px;
+}
+footer .inner .shortCutWrap .shortCut p {
+  position: relative;
+  padding-bottom: 8px;
+  font-size: 12px;
+  color: #000;
+  font-weight: 700;
+  line-height: normal;
+}
+footer .inner .shortCutWrap .shortCut p span {
+  padding: 0 5px;
+}
+footer .inner .shortCutWrap .shortCut .openTime {
+  padding-bottom: 4px;
+  font-size: 11px;
+  color: #999;
+  font-weight: 500;
+  line-height: normal;
+}
+footer .inner .shortCutWrap .shortCut .openTime .time {
+  padding-left: 4px;
+  font-size: 11px;
+  color: #000;
+  font-weight: 500;
+}/*# sourceMappingURL=index.css.map */

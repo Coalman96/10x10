@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10 X 10</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      .swiper {
+        width: 100%;
+        height: 600px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="inner flex">
+        <h1><img src="./images/logo_bk.png" alt="로고" /></h1>
+        <nav class="flex">
+          <ul class="flex">
+            <li><a href="#x">2023텐텐다꾸</a></li>
+            <li><a href="#x">유니버셜</a></li>
+            <li><a href="#x">공식스토어</a></li>
+            <li><a href="#x">신상품</a></li>
+            <li><a href="#x">베스트</a></li>
+            <li><a href="#x">할인특가</a></li>
+            <li><a href="#x">기획전</a></li>
+            <li><a href="#x">브랜드</a></li>
+          </ul>
+          <div class="search">
+            <input
+              type="text"
+              placeholder="띠부씰 포토후기 이벤트! 잊지말아요!"
+              onfocus="this.placeholder=''"
+              onblur="this.placeholder='띠부씰 포토후기 이벤트! 잊지말아요!'"
+            />
+            <a href="#x"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section id="sect1">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/mainRolling_1.jpg" alt="slide1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/mainRolling_2.jpg" alt="slide2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/mainRolling_3.jpg" alt="slide3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/mainRolling_4.jpg" alt="slide4" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/mainRolling_5.jpg" alt="slide5" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="just1day">
+        <div class="inner flex">
+          <div class="ftLt">
+            <h2><img src="./images/just1day.png" alt="just1day" /></h2>
+            <p class="sale"><strong>~68%</strong>SALE</p>
+          </div>
+          <ul class="items flex">
+            <li>
+              <div class="thumbnail">
+                <img src="./images/thum_1.jpg" alt="thum_1" />
+              </div>
+              <div class="desc">
+                <p class="name">[무배특가] 메종드꼼마<br />BEST&amp; NEW</p>
+                <div class="price">
+                  <span class="red">~68%</span>
+                  <span class="sum">15,900원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/thum_2.jpg" alt="thum_2" />
+              </div>
+              <div class="desc">
+                <p class="name">셀럽PICK주얼리,nonenon♡</p>
+                <div class="price">
+                  <span class="red">~40%</span>
+                  <span class="sum">15,300원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/thum_3.jpg" alt="thum_3" />
+              </div>
+              <div class="desc">
+                <p class="name">주말 나들이엔 커먼유니크!</p>
+                <div class="price">
+                  <span class="red">~50%</span>
+                  <span class="sum">11630원~</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="sect2">
+      <div class="inner flex">
+        <div class="ftLt flex">
+          <h2><b>MD's</b>&nbsp;Pick</h2>
+          <p>텐바이텐 엠디가<br />자신있게 추천합니다.</p>
+          <ul>
+            <li><a href="#">#BEST 100</a></li>
+            <li><a href="#">#BEST WISH</a></li>
+            <li><a href="#">#NEW BEST</a></li>
+          </ul>
+        </div>
+        <ul class="items flex">
+          <li>
+            <div class="thumbnail">
+              <img src="./images/sect2thum1.jpg" alt="thum_1" />
+            </div>
+            <div class="desc">
+              <p class="name">[무배특가] 메종드꼼마<span>NEW</span></p>
+              <div class="price">
+                <span class="sum">36,500원~</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img src="./images/sect2thum2.jpg" alt="thum_2" />
+            </div>
+            <div class="desc">
+              <p class="name">[월간텐텐 1+1] 아이코닉 위클리 아카이브 플래너</p>
+              <div class="price">
+                <span style="color: green">19%</span>
+                <span class="sum">12,000원~</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img src="./images/sect2thum3.jpg" alt="thum_3" />
+            </div>
+            <div class="desc">
+              <p class="name">
+                ★10% SALE★ 아이패드 케이스 모음<span>NEW</span>
+              </p>
+              <div class="price">
+                <span style="color: red">10%</span>
+                <span class="sum">34,200원~</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img src="./images/sect2thum4.jpg" alt="thum_4" />
+            </div>
+            <div class="desc">
+              <p class="name">
+                [쏘두위] 구강용품 BEST 초특가 모음♡<span>NEW</span>
+              </p>
+              <div class="price">
+                <span class="sum">3,900원~</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img src="./images/sect2thum5.jpg" alt="thum_5" />
+            </div>
+            <div class="desc">
+              <p class="name">
+                [주말특가] 롤스티커 & 마스킹테이프★<span>NEW</span>
+              </p>
+              <div class="price">
+                <span style="color: red">~65%</span>
+                <span class="sum">2,000원~</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img src="./images/sect2thum6.jpg" alt="thum_6" />
+            </div>
+            <div class="desc">
+              <p class="name">
+                아기자기한 뽀인트! 포코아르 식기 모음<span>NEW</span>
+              </p>
+              <div class="price">
+                <span class="sum">18,000원~</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img src="./images/sect2thum7.jpg" alt="thum_7" />
+            </div>
+            <div class="desc">
+              <p class="name">
+                [공부템추천]라이프썸 듀얼 디지털 스톱워치 무배특가
+              </p>
+              <div class="price">
+                <span style="color: red">10%</span>
+                <span class="sum">12,900원~</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img src="./images/sect2thum8.jpg" alt="thum_8" />
+            </div>
+            <div class="desc">
+              <p class="name">다빈치 3단 무빙 트롤리 철제 수납 이동식선반</p>
+              <div class="price">
+                <span style="color: green">30%</span>
+                <span class="sum">28,300원~</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img src="./images/sect2thum9.jpg" alt="thum_9" />
+            </div>
+            <div class="desc">
+              <p class="name">
+                내 방에 감성 한 스푼 패브릭 포스터 best 모음전<span>NEW</span>
+              </p>
+              <div class="price">
+                <span style="color: red">34%</span>
+                <span class="sum">6,900원~</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img src="./images/sect2thum10.png" alt="thum_10" />
+            </div>
+            <div class="desc">
+              <p class="name">[버터샵] BT 피크피크 그라운드 체어</p>
+              <div class="price">
+                <span class="sum">20,000원~</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img src="./images/sect2thum11.jpg" alt="thum_11" />
+            </div>
+            <div class="desc">
+              <p class="name">[1+1할인]오아 스퀘어 미니 탁상용 무선 선풍기</p>
+              <div class="price">
+                <span style="color: red">10%</span>
+                <span class="sum">33,300원~</span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img src="./images/sect2thum12.jpg" alt="thum_12" />
+            </div>
+            <div class="desc">
+              <p class="name">트래블러스 백팩과 즐거운 여행!</p>
+              <div class="price">
+                <span style="color: red">15%</span>
+                <span class="sum">98,000원~</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="sect3">
+      <div class="inner">
+        <article>
+          <div class="item">
+            <img src="./images/1.jpg" alt="item1" />
+          </div>
+          <div class="item down">
+            <img src="./images/2.jpg" alt="item2" />
+          </div>
+          <div class="item">
+            <img src="./images/3.jpg" alt="item3" />
+          </div>
+          <div class="item">
+            <img src="./images/4.jpg" alt="item4" />
+          </div>
+          <div class="item down">
+            <img src="./images/5.jpg" alt="item5" />
+          </div>
+          <div class="item">
+            <img src="./images/6.jpg" alt="item6" />
+          </div>
+          <div class="item down">
+            <img src="./images/7.jpg" alt="item7" />
+          </div>
+          <div class="item">
+            <img src="./images/8.jpg" alt="item8" />
+          </div>
+          <div class="item">
+            <img src="./images/9.jpg" alt="item9" />
+          </div>
+          <div class="item">
+            <img src="./images/10.jpg" alt="item10" />
+          </div>
+          <div class="more">
+            <img src="./images/1.jpg" alt="item11" />
+          </div>
+          <div class="more down">
+            <img src="./images/2.jpg" alt="item12" />
+          </div>
+          <div class="more">
+            <img src="./images/3.jpg" alt="item13" />
+          </div>
+          <div class="more">
+            <img src="./images/4.jpg" alt="item14" />
+          </div>
+        </article>
+      </div>
+      <a href="#" class="prev"></a>
+      <a href="#" class="next"></a>
+    </section>
+    <section id="sect4">
+      <div class="inner">
+        <div class="itemTab">
+          <ul class="flex">
+            <li><a href="#sec4Left" class="on">조회수 급상승</a></li>
+            <li><a href="#sec4Right">장바구니 인기</a></li>
+          </ul>
+        </div>
+        <div class="tab on flex" id="sec4Left">
+          <div class="ftLt flex">
+            <h2>
+              지금 장바구니에 <br />
+              <b
+                >이 상품이 <br />
+                담기고 있어요</b
+              >
+            </h2>
+          </div>
+          <ul class="flex">
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Left1.jpg" alt="thum_1" />
+              </div>
+              <div class="desc">
+                <p class="name">[Sanrio] 실리콘필통 (3종)</p>
+                <div class="price">
+                  <span style="color: red">71%</span>
+                  <span class="sum">36,500원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Left2.jpg" alt="thum_2" />
+              </div>
+              <div class="desc">
+                <p class="name">디즈니 평생 쓸 수 있는 자이 탄소펜</p>
+                <div class="price">
+                  <span style="color: red">54%</span>
+                  <span class="sum">13,300원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Left3.jpg" alt="thum_3" />
+              </div>
+              <div class="desc">
+                <p class="name">마시랜드_하이틴팩</p>
+                <div class="price">
+                  <span style="color: rgb(141, 230, 141)">10%</span>
+                  <span class="sum">10,080원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Left4.jpg" alt="thum_4" />
+              </div>
+              <div class="desc">
+                <p class="name">[Sanrio] 시나모롤_페이스 쿠션</p>
+                <div class="price">
+                  <span style="color: red">34%</span>
+                  <span class="sum">24,000원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Left5.jpg" alt="thum_5" />
+              </div>
+              <div class="desc">
+                <p class="name">[Sanrio] 마카롱 텀블러 (6종)</p>
+                <div class="price">
+                  <span style="color: red">25%</span>
+                  <span class="sum">9,000원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Left6.jpg" alt="thum_6" />
+              </div>
+              <div class="desc">
+                <p class="name">[Sanrio] 무선 충전 패드 (6종)</p>
+                <div class="price">
+                  <span style="color: red">49%</span>
+                  <span class="sum">16,000원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Left7.jpg" alt="thum_7" />
+              </div>
+              <div class="desc">
+                <p class="name">[A5] 미뉴잇 마카롱 6공 커버+키링</p>
+                <div class="price">
+                  <span style="color: rgb(141, 230, 141)">30%</span>
+                  <span class="sum">14,080원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Left8.jpg" alt="thum_8" />
+              </div>
+              <div class="desc">
+                <p class="name">
+                  [코튼인블루] 다빈치 3단 무빙 트롤리 철제 수납 이동식선반
+                </p>
+                <div class="price">
+                  <span style="color: rgb(141, 230, 141)">30%</span>
+                  <span class="sum">23,000원~</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="tab flex" id="sec4Right">
+          <div class="ftLt flex">
+            <h2>
+              다른 고객들은 <br />
+              <b
+                >이 상품을 <br />
+                보고 있어요</b
+              >
+            </h2>
+          </div>
+          <ul class="flex">
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Right1.jpg" alt="thum_1" />
+              </div>
+              <div class="desc">
+                <p class="name">[Sanrio] 실리콘필통 (3종)</p>
+                <div class="price">
+                  <span style="color: red">71%</span>
+                  <span class="sum">36,500원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Right2.jpg" alt="thum_2" />
+              </div>
+              <div class="desc">
+                <p class="name">디즈니 평생 쓸 수 있는 자이 탄소펜</p>
+                <div class="price">
+                  <span style="color: red">54%</span>
+                  <span class="sum">13,300원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Right3.jpg" alt="thum_3" />
+              </div>
+              <div class="desc">
+                <p class="name">마시랜드_하이틴팩</p>
+                <div class="price">
+                  <span style="color: rgb(141, 230, 141)">10%</span>
+                  <span class="sum">10,080원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Right4.jpg" alt="thum_4" />
+              </div>
+              <div class="desc">
+                <p class="name">[Sanrio] 시나모롤_페이스 쿠션</p>
+                <div class="price">
+                  <span style="color: red">34%</span>
+                  <span class="sum">24,000원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Right5.jpg" alt="thum_5" />
+              </div>
+              <div class="desc">
+                <p class="name">[Sanrio] 마카롱 텀블러 (6종)</p>
+                <div class="price">
+                  <span style="color: red">25%</span>
+                  <span class="sum">9,000원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Right6.jpg" alt="thum_6" />
+              </div>
+              <div class="desc">
+                <p class="name">[Sanrio] 무선 충전 패드 (6종)</p>
+                <div class="price">
+                  <span style="color: red">49%</span>
+                  <span class="sum">16,000원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Right7.jpg" alt="thum_7" />
+              </div>
+              <div class="desc">
+                <p class="name">[A5] 미뉴잇 마카롱 6공 커버+키링</p>
+                <div class="price">
+                  <span style="color: rgb(141, 230, 141)">30%</span>
+                  <span class="sum">14,080원~</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="thumbnail">
+                <img src="./images/sect4Right8.jpg" alt="thum_8" />
+              </div>
+              <div class="desc">
+                <p class="name">
+                  [코튼인블루] 다빈치 3단 무빙 트롤리 철제 수납 이동식선반
+                </p>
+                <div class="price">
+                  <span style="color: rgb(141, 230, 141)">30%</span>
+                  <span class="sum">23,000원~</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="inner">
+        <ul class="footerMenus flex">
+          <li class="footerMenu">
+            <a href="#x">회사소개</a>
+          </li>
+          <li class="footerMenu">
+            <a href="#x">채용정보</a>
+          </li>
+          <li class="footerMenu">
+            <a href="#x"><b>이용약관</b></a>
+          </li>
+          <li class="footerMenu">
+            <a href="#x"><b>개인정보 처리방침</b></a>
+          </li>
+          <li class="footerMenu">
+            <a href="#x"><b>청소년 보호정책</b></a>
+          </li>
+          <li class="footerMenu">
+            <a href="#x">제휴/광고</a>
+          </li>
+          <li class="footerMenu">
+            <a href="#x">입점문의</a>
+          </li>
+          <li class="footerMenu">
+            <a href="#x">매장안내</a>
+          </li>
+        </ul>
+        <div class="infoWrap flex">
+          <h2><img src="./images/logo_tenbyten.png" alt="footer logo" /></h2>
+          <div class="info">
+            <div class="company">
+              <em>㈜텐바이텐</em>
+              <p>
+                대표이사 : 최은희 / 서울시 종로구 대학로 57 홍익대학교
+                대학로캠퍼스 교육동 14층
+              </p>
+              <p>
+                사업자등록번호 : 211-87-00620 / 통신판매업 신고 : 제 01-1968호
+                <a href="#">사업자 정보확인</a>
+              </p>
+              <p>
+                전화번호 : 1644-6030 / E-mail :
+                <a href="#">customer@10x10.co.kr</a>
+              </p>
+              <p>
+                개인정보보호책임자 : 이문재 / 소비자피해보상보험 SGI 서울보증
+                <a href="#">서비스 가입 사실 확인</a>
+              </p>
+              <p>호스팅서비스:㈜텐바이텐</p>
+              <p style="font-size: 11px">
+                사이트 내 판매 상품 중 일부는 ㈜텐바이텐에 입점한 개별판매자가
+                판매하는 상품이 포함되어 있습니다. 해당 상품의 경우<br />㈜텐바이텐은
+                통신판매중개자로서 판매 당사자가 아니며, 상품정보 및 거래 등에
+                대한 책임을 지지 않습니다.
+              </p>
+              <p class="copyright">
+                COPYRIGHT &copy; TENBYTEN ALL RIGHTS RESERVED.
+              </p>
+            </div>
+          </div>
+          <div class="shortCutWrap">
+            <ul class="flex">
+              <li>
+                <a href="#"><img src="./images/yotube.png" alt="yotube" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./images/insta.png" alt="insta" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./images/facebook.png" alt="meta" /></a>
+              </li>
+            </ul>
+            <a href="" class="shortCut">
+              <p>
+                고객센터 바로가기<span
+                  ><i class="fa-solid fa-angle-right"></i
+                ></span>
+              </p>
+              <div class="openTime">
+                <span>운영시간</span>
+                <span class="time"
+                  >오전 10시 ~ 오후 5시 (주말, 공휴일 휴무)</span
+                >
+              </div>
+              <div class="openTime">
+                <span>점심시간</span>
+                <span class="time">오후 12시 30분 ~ 오후 1시 30분</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      let itemWid = 0;
+      let dir = -1;
+      let speed = 1;
+      let loc = 1;
+
+      $(".item").each(function () {
+        let w = $(this).innerWidth();
+        itemWid += w;
+      });
+
+      setInterval(flowBanner, 10);
+
+      function flowBanner() {
+        loc += speed * dir;
+        if (loc <= -itemWid) {
+          loc = 0;
+        } else if (loc >= 0) {
+          loc = -itemWid;
+        }
+        $("article").css({ left: loc });
+      }
+
+      //버튼 페이지 스피드제어
+      $(".next").mouseenter(function () {
+        dir = -1;
+        speed = 5;
+      });
+      $(".next").mouseleave(function () {
+        speed = 1;
+      });
+      $(".prev").mouseenter(function () {
+        dir = 1;
+        speed = 5;
+      });
+      $(".prev").mouseleave(function () {
+        speed = 1;
+      });
+      $("article").mouseenter(function () {
+        speed = 0;
+      });
+      $("article").mouseleave(function () {
+        speed = 1;
+      });
+      // sect1 슬라이드
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        effect: "fade",
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+
+      //sect4 item
+      const showBtn = document.querySelectorAll(".itemTab ul li a");
+      const tabs = document.querySelectorAll(".tab");
+      for (const btn of showBtn) {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          const getHref = btn.getAttribute("href");
+          const setHref = document.querySelector(getHref);
+          for (const tab of tabs) {
+            tab.classList.remove("on");
+          }
+          for (const b of showBtn) {
+            b.classList.remove("on");
+          }
+          btn.classList.add("on");
+          setHref.classList.add("on");
+        });
+      }
+    </script>
+  </body>
+</html>
