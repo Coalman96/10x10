@@ -89,6 +89,9 @@ header .inner nav .search a {
   right: 15px;
 }
 
+#sect1 {
+  height: auto;
+}
 #sect1 .just1day {
   height: 490px;
   background: url(http://fiximage.10x10.co.kr/web2018/main/bg_pattern_slash.png) 0 0 repeat;
@@ -137,7 +140,11 @@ header .inner nav .search a {
 
 #sect2 {
   margin-top: 100px;
-  height: 130vh;
+  height: auto;
+}
+#sect2 .inner {
+  position: relative;
+  height: 1600px;
 }
 #sect2 .inner .ftLt {
   width: 250px;
@@ -174,6 +181,7 @@ header .inner nav .search a {
 }
 #sect2 .inner .ftLt ul li a {
   display: inline-block;
+  width: 80px;
   height: 24px;
   margin-bottom: 10px;
   padding: 0 10px;
@@ -183,6 +191,10 @@ header .inner nav .search a {
   color: #000;
   background-color: #eee;
   border-radius: 12px;
+}
+#sect2 .inner .ftLt ul li a.on {
+  background-color: #4075ff;
+  color: #fff;
 }
 #sect2 .inner .items {
   flex: 1;
@@ -235,6 +247,7 @@ header .inner nav .search a {
 #sect3 {
   height: 100vh;
   overflow: hidden;
+  position: relative;
 }
 #sect3 .inner {
   position: relative;
@@ -256,17 +269,18 @@ header .inner nav .search a {
 #sect3 .inner div.down {
   align-self: flex-end;
 }
-#sect3 .prev {
+#sect3 .btns {
   position: absolute;
   width: 100px;
   height: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#sect3 .prev {
   background: url(./images/prev.png) no-repeat center/cover;
 }
 #sect3 .next {
-  position: absolute;
   right: 0;
-  width: 100px;
-  height: 100px;
   background: url(./images/next.png) no-repeat center/cover;
 }
 
@@ -454,4 +468,4 @@ footer .inner .shortCutWrap .shortCut .openTime .time {
   font-size: 11px;
   color: #000;
   font-weight: 500;
-}/*# sourceMappingURL=index.css.map */
+}
